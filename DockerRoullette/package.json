@@ -1,0 +1,24 @@
+{
+  "name": "docker-roulette-system",
+  "version": "1.0.0",
+  "description": "A high-performance containerized RNG system using Node.js and C++.",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "docker",
+    "cpp",
+    "nodejs",
+    "rng",
+    "strategy-pattern"
+  ],
+  "author": "Bruno Fernandes",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
