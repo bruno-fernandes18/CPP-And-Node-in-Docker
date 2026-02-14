@@ -138,7 +138,7 @@ app.get('/api/v1/roll', async (req, res) => {
 /**
  * Server activation
  */
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.info(`[SYSTEM] Roulette API service initialized on port ${PORT}`);
     console.info(`[INFRA] RNG Binary Path: ${BIN_PATH}`);
 });
